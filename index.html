@@ -1,146 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raphael Andrei D. Magro - Full Stack Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://michalsnik.github.io/aos/dist/aos.css" />
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Landing Section -->
-    <section id="landing" class="landing-hero">
-        <div class="landing-background"></div>
-        <nav class="navbar navbar-expand-lg navbar-landing">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.png" alt="Logo" height="40" class="me-2">
-                    <span class="brand-text">RM</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tools.html">Tools</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raphael Magro | Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css">
 
-        <div class="landing-content">
-            <div class="container">
-                <div class="row align-items-center justify-content-between min-vh-100">
-                    <div class="col-lg-6 landing-text" data-aos="fade-up" data-aos-duration="1000">
-                        <h1 class="landing-title">Raphael<br><span class="highlight">Andrei D. Magro</span></h1>
-                        <p class="landing-subtitle">I'm a passionate <span class="job-title">Full Stack Web Developer</span></p>
-                        <div class="social-icons mt-4">
-                            <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="200"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="300"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="social-icon" data-aos="fade-up" data-aos-delay="400"><i class="fab fa-github"></i></a>
-                        </div>
-                        <div class="mt-5">
-                            <a href="#featured" class="scroll-btn">Scroll to Explore <i class="fas fa-chevron-down"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 portrait-container" data-aos="fade-left" data-aos-duration="1000">
-                        <div class="portrait-wrapper">
-                            <img src="images/magro.png" alt="Raphael Andrei D. Magro" class="portrait-img">
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <link rel="icon" type="image/png" href="./images/Rm (1).png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- LANDING PAGE -->
+    <section class="landing-page">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <!-- Text Section -->
+          <div class="col-lg-6 col-12 text-center text-lg-start">
+            <h2 class="landing-title text-white">RAPHAEL ANDREI D. MAGRO</h2>
+            <p class="landing-subtitle text-white fw-light">Web Developer & Designer</p>
+            <!-- Navigation Bar -->
+            <nav class="landing-nav mt-5">
+              <ul class="nav-list list-unstyled d-flex gap-4 flex-wrap m-0 p-0">
+                <li><a href="./about.html" class="nav-link">About Me</a></li>
+                <li><a href="./tools.html" class="nav-link">Tools</a></li>
+                <li><a href="./projects.html" class="nav-link">Projects</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact Me</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Image Section -->
+          <div class="col-lg-6 col-12 text-center">
+            <img src="./images/Rm (2).png" alt="Raphael Magro" class="landing-image img-fluid">
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- Featured Section -->
-    <section id="featured" class="featured-section">
-        <div class="container">
-            <div class="section-header" data-aos="fade-up">
-                <h2>Featured Work</h2>
-                <p>Bringing ideas to life with code and design</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4 featured-card" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="images/CPUSCHED.png" alt="CPU Scheduling">
-                            </div>
-                            <div class="flip-card-back">
-                                <h5>CPU Scheduling Simulator</h5>
-                                <p>JavaScript visualization tool</p>
-                                <a href="projects.html" class="btn-link">Explore <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 featured-card" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="images/MERGE.png" alt="Merge Sort">
-                            </div>
-                            <div class="flip-card-back">
-                                <h5>Merge Sort Visualizer</h5>
-                                <p>Interactive algorithm demo</p>
-                                <a href="projects.html" class="btn-link">Explore <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 featured-card" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="images/RECEIPT.png" alt="Receipt Generator">
-                            </div>
-                            <div class="flip-card-back">
-                                <h5>Receipt Generator</h5>
-                                <p>Web application tool</p>
-                                <a href="projects.html" class="btn-link">Explore <i class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="projects.html" class="btn btn-primary btn-lg">View All Projects <i class="fas fa-arrow-right ms-2"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <footer class=\"footer\">
-        <div class=\"container text-center\">
-            <p>&copy; 2026 Raphael Andrei D. Magro. All rights reserved.</p>
-        </div>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="container">
+        <p class="text-muted m-0 fs-6">&copy; 2026 Raphael Andrei D. Magro. All rights reserved.</p>
+      </div>
     </footer>
 
-    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js\"></script>
-    <script src=\"https://michalsnik.github.io/aos/dist/aos.js\"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: true,
-            offset: 100
-        });
-    </script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
+
